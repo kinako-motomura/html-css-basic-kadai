@@ -1,0 +1,39 @@
+/* bodyのフォントを指定 */
+body {
+  font-family: "Arial","Meiryo",sans-serif
+}
+
+/* ルート要素のフォントサイズを20pxに */
+html {
+  font-size: 20px
+}
+
+/* blueクラスの色をスカイブルーに、pinkクラスの色をrgb(255.192.203)に */
+.blue {
+  color: skyblue
+}
+.pink{
+  color: rgb(255,192,203)
+}
+
+/*h1の装飾 */
+h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 2rem;
+  letter-spacing: 1.2em;
+  text-shadow: 4px 4px 10px yellowgreen;
+  border-bottom: solid 3px rgb(115, 115, 114)
+}
+
+/* 全てのテキストを中央寄せに設定 */
+body {
+  text-align: center;
+}
+
+/* divタグ（id="basic"）のp要素を太字にする */
+#basic p {
+  font-weight: bold; 
+}
